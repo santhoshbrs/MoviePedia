@@ -37,12 +37,7 @@ Provide a link or screenshot to a live demo of your application here.
 - Themoviedb API: Used to fetch movie data.
 - [Add more technologies here]
 
-Usage
-Enter a movie title in the search bar and click "Search" to find a specific movie.
-Click on a movie card to view its details, including the poster, rating, release date, and more.
-Watch movie trailers if available.
-Explore top-rated and trending movies on the homepage.
-[Provide usage instructions specific to your app]
+
 ## Installation
 
 1. Clone the repository:
