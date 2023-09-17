@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,600,600i,700&display=swap");
+
+body{
+  font-family: "Source Sans Pro", sans-serif;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+  outline: none;
+  background-image: url("image.jpg");
+  background-size:     cover;                  
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
+
+.container{
+  width: 100%;
+  margin: 1em auto;
+  background-color: black;
+
+}
+
+.grid{
+  display: grid;
+  margin-left: .5px;
+  grid-template-columns: repeat(4,1fr);
+  grid-gap: 0.2em;
+  justify-content: center;
+}
+
+h2{
+  background-color: antiquewhite;
+}
+.card-body{
+  background-color:black;
+}
+
+.header{
+  background-image: url("image2.jpg");
+  height: 120px;
+  border:none;
+  background-size:     cover;                  
+    background-repeat:   no-repeat;
+    background-position: center center;
+ 
+}
+.trending{
+  background-color: red;
+  font-weight: bold;
+  
+}
+

@@ -1,0 +1,14 @@
+.footer {
+  background-image: url("image2.jpg");
+  height: 120px;
+  border:none;
+  background-size:     cover;                  
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
+
+.footer h4 {
+  margin: 0;
+  color: white;
+  padding-top: 20px;
+}
