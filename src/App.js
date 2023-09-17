@@ -45,7 +45,7 @@ function App() {
     <>
       <Navbar className='header' bg="black" expand="lg" variant="dark">
         <Container fluid>
-          <Navbar.Brand href="/home">
+          <Navbar.Brand href="/">
             <img 
               src={logo}
               width="300"
