@@ -9,10 +9,10 @@ A web application for searching and listing movies. This app allows users to sea
 - [Demo](#demo)
 - [Features](#features)
 - [Technologies](#technologies)
-- [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+- [Installation](#installation)
+
+
 
 ## Demo
 
@@ -35,6 +35,11 @@ A web application for searching and listing movies. This app allows users to sea
 - Bootstrap: CSS framework for styling.
 - Themoviedb API: Used to fetch movie data.
 
+## Usage
+- Enter a movie title in the search bar and click "Search" to find a specific movie.
+- Click on a movie card to view its details, including the poster, rating, release date, and more.
+- Watch movie trailers if available.
+- Explore top-rated and trending movies on the homepage.
 
 
 ## Installation
