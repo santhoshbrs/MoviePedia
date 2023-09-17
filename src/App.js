@@ -7,7 +7,7 @@ import logo from './logo.png';
 import Footer from './Footer'
 
 const API_URL = "https://api.themoviedb.org/3/movie/popular?api_key=9d807ce80ebbc1c7be889b73af01c8bb";
-const API_SEARCH = "https://api.themoviedb.org/3/search/movie?api_key=9d807ce80ebbc1c7be889b73af01c8bb&query";
+/* const API_SEARCH = "https://api.themoviedb.org/3/search/movie?api_key=9d807ce80ebbc1c7be889b73af01c8bb&query"; */
 
 function App() {
   const [movies, setMovies] = useState([]);

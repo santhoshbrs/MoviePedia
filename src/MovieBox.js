@@ -1,5 +1,5 @@
 import { Modal, Button } from 'react-bootstrap';
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 const API_IMG = "https://image.tmdb.org/t/p/w500/";
 
 const MovieBox = ({
@@ -25,7 +25,8 @@ const MovieBox = ({
 
   const handleClose = () => setShow(false);
 
-  const fetchMovieDetails = async () => {
+  // Wrap the definition of fetchMovieDetails in useCallback
+  const fetchMovieDetails = useCallback(async () => {
     try {
       const apiKey = '9d807ce80ebbc1c7be889b73af01c8bb';
 
@@ -77,11 +78,11 @@ const MovieBox = ({
     } catch (error) {
       console.error('Error fetching movie details:', error);
     }
-  };
+  }, [id, vote_average]);
 
   useEffect(() => {
     fetchMovieDetails();
-  }, []);
+  }, [fetchMovieDetails]);
 
   return (
     <div className="card text-center bg-secondary mt-4 ms-4 border-0">
