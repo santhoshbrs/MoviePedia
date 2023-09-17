@@ -28,14 +28,13 @@ Provide a link or screenshot to a live demo of your application here.
 - View detailed information about each movie, including poster, rating, release date, and more.
 - Watch movie trailers if available.
 - List top-rated and trending movies.
-- [Add more features here]
 
 ## Technologies
 
 - React: Frontend library for building user interfaces.
 - Bootstrap: CSS framework for styling.
 - Themoviedb API: Used to fetch movie data.
-- [Add more technologies here]
+
 
 
 ## Installation
