@@ -1,6 +1,6 @@
 # Movie Search and Listing App
 
-![Project Logo](src/logo.png) <!-- Add a logo or relevant image here -->
+![Project Logo](src/Screenshot 2023-09-18 020700.png) <!-- Add a logo or relevant image here -->
 
 A web application for searching and listing movies. This app allows users to search for movies by title and view detailed information about each movie.
 
