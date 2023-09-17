@@ -20,7 +20,7 @@ Provide a link or screenshot to a live demo of your application here.
 
 [Demo Screenshot](src/Screenshot 2023-09-18 020700.png) 
 
-[Live Demo](https://moviepedia1.netlify.app/)
+![Live Demo](https://moviepedia1.netlify.app/)
 
 ## Features
 
