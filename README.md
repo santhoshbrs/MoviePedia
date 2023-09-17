@@ -16,11 +16,11 @@ A web application for searching and listing movies. This app allows users to sea
 
 ## Demo
 
-Provide a link or screenshot to a live demo of your application here.
+
 
 ![Demo Screenshot](src/demo-screenshot.png)
 
-![Live Demo](https://moviepedia1.netlify.app/)
+[Live Demo](https://moviepedia1.netlify.app/)
 
 ## Features
 
