@@ -87,7 +87,7 @@ const MovieBox = ({
   return (
     <div className="card text-center bg-secondary mt-4 ms-4 border-0">
       <div className="card-body pt-5 px-5 pb-1  rounded">
-        <img className="card-img-top" src={API_IMG + poster_path} alt={original_title} />
+        <img className="card-img-top" src={API_IMG + poster_path} alt={"https://via.placeholder.com/400"} />
         <div className="card-body p-1">
           <h4 className='text-light'>{original_title}</h4>
           <button
