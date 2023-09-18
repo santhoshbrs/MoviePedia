@@ -1,6 +1,8 @@
 import { Modal, Button } from 'react-bootstrap';
 import React, { useState, useEffect, useCallback } from 'react';
 const API_IMG = "https://image.tmdb.org/t/p/w500/";
+const placeholderImageUrl = "https://via.placeholder.com/286x429?text=Image+Not+Available";
+const placeholderImageUrl1 = "https://via.placeholder.com/279x414?text=Image+Not+Available";
 
 const MovieBox = ({
   original_title,
@@ -87,7 +89,7 @@ const MovieBox = ({
   return (
     <div className="card text-center bg-secondary mt-4 ms-4 border-0">
       <div className="card-body pt-5 px-5 pb-1  rounded">
-        <img className="card-img-top" src={API_IMG + poster_path} alt={"https://via.placeholder.com/400"} />
+      <img className="card-img-top" src={poster_path ? (API_IMG + poster_path) : placeholderImageUrl}  alt={original_title} /> 
         <div className="card-body p-1">
           <h4 className='text-light'>{original_title}</h4>
           <button
@@ -105,7 +107,7 @@ const MovieBox = ({
               </Modal.Title>
             </Modal.Header>
             <Modal.Body className='bg-dark text-light'>
-              <img className="card-img-top" style={{ width: '14rem' }} src={API_IMG + poster_path} alt={original_title} />
+              <img className="card-img-top" style={{ width: '14rem' }} src={poster_path ? (API_IMG + poster_path) : placeholderImageUrl1} alt={original_title} />
               <h5 className='mt-2'>Release Date: {release_date}</h5>
               <h5>Rating: {rating}</h5>
               <h5>Genres: {genres.join(', ')}</h5>
